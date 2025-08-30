@@ -1,0 +1,22 @@
+site_name: My mkdcs Documentation
+
+nav:
+    - Home: index.md
+    - Setup Guide: setup-guide.md
+    - Markdown Guide: markdown-guide.md
+    - mkdocs-yml : mkdocs-yml.md 
+    - About: 
+      - about: about.md
+      - about us : aboutUs.md
+
+extra_css:
+    - css/custom.css
+
+theme: 
+  name: material
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 2-3   
+  - admonition
